@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Typography in Bootstrap</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Typography in Bootstrap</h1>
+            <hr />
+            <p>Normal headings in HTML while bootstrap css is used:</p>
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            <h4>This is heading 4</h4>
+            <h5>This is heading 5</h5>
+            <h6>This is heading 6</h6>
+            <hr />
+
+            <p>
+                If you want larger font-size but lighter font-weight, use
+                .display-x class
+            </p>
+            <h1 class="display-1">This is heading 1</h1>
+            <h2 class="display-2">This is heading 2</h2>
+            <h3 class="display-3">This is heading 3</h3>
+            <h4 class="display-4">This is heading 4</h4>
+            <h5 class="display-5">This is heading 5</h5>
+            <h6 class="display-6">This is heading 6</h6>
+
+            <hr />
+            <p>You may use .display-n class with any HTML element</p>
+
+            <p class="display-1">This is a paragraph with .display-1 class</p>
+            <div class="display-1">This is a div with .display-1 class</div>
+            <div class="display-2">This is a div with .display-2 class</div>
+            <div class="display-3">This is a div with .display-3 class</div>
+            <div class="display-4">This is a div with .display-4 class</div>
+            <div class="display-5">This is a div with .display-5 class</div>
+            <div class="display-6">This is a div with .display-6 class</div>
+            <hr />
+
+            <h1>
+                This is another heading with
+                <small class="text-muted">some content in dull color</small>
+            </h1>
+
+            <hr />
+            <p>This is how a normal paragraph looks like</p>
+            <p class="lead">
+                This is how a styled paragraph looks like in bootstrap. Global
+                font-size set by bootstrap is 1rem (root em). In CSS, 1 rem is
+                equal to the font-size of the root element (&lt;html&gt;), which
+                is typically 16px in most browsers, by default.
+            </p>
+
+            <h3>Text alignments:</h3>
+            <p class="text-start">
+                This is a text aligned to the left in all viewport sizes.
+            </p>
+            <p class="text-center">
+                This is a text aligned to the center in all viewport sizes.
+            </p>
+            <p class="text-end">
+                This is a text aligned to the right in all viewport sizes.
+            </p>
+
+            <hr />
+            <h3>Text formatting in bootstrap</h3>
+            <p><b>This is a text in bold</b></p>
+            <p><strong>This is a strongly emphasized text</strong></p>
+            <p><i>This an italisized text</i></p>
+            <p><em>This is an emphasized text</em></p>
+            <p>
+                <mark>This is a highlighted text</mark>
+            </p>
+            <p>
+                This is a <sub>subscript</sub> and this is a
+                <sup>superscript</sup> text
+            </p>
+            <p><code>String name="Vinod Kumar";</code></p>
+            <p>MRP: <del>₹2799</del> <ins>₹2500</ins></p>
+            <hr />
+
+            <h3>Text transformation</h3>
+            <p>
+                can be done using .text-lowercase, .text-uppercase and
+                .text-capitalize classes
+            </p>
+
+            <p class="text-lowercase">
+                HTML stands for Hyper Text Markup Language
+            </p>
+            <p class="text-uppercase">
+                HTML stands for Hyper Text Markup Language
+            </p>
+            <p class="text-capitalize">
+                HTML stands for Hyper Text Markup Language
+            </p>
+
+            <hr />
+
+            <h3>Text coloring</h3>
+            <p>
+                Can be achieved using *-primary, *-secondary, *-info, *-success,
+                *-warning, *-danger and *-muted
+            </p>
+
+            <p class="text-primary">This is a primary text</p>
+            <p class="text-secondary">This is a secondary text</p>
+            <p class="text-info">This is a info text</p>
+            <p class="text-success">This is a success text</p>
+            <p class="text-warning">This is a warning text</p>
+            <p class="text-danger">This is a danger text</p>
+            <p class="text-muted">This is a muted text</p>
+
+            <hr />
+            <h3>Using .blockquote class</h3>
+
+            <figure>
+                <blockquote class="blockquoute">
+                    The world is a dangerous place to live; not because of the
+                    people who are evil, but because of the people who don't do
+                    anything about.
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    by <cite>Albert Einstein</cite>
+                </figcaption>
+            </figure>
+
+            <hr />
+            <h3>Truncating longer text</h3>
+            <p>.text-truncate can be applied only to an inline-block element</p>
+            <p>
+                <span
+                    class="text-truncate d-inline-block"
+                    style="max-width: 250px"
+                    title="This is a very very very long text and needs to fit with in
+                    250px width"
+                    >This is a very very very long text and needs to fit with in
+                    250px width</span
+                >
+            </p>
+
+            <p style="color: #fff" class="lead bg-primary">
+                This has primary background
+            </p>
+            <p style="color: #fff" class="lead bg-secondary">
+                This has secondary background
+            </p>
+            <p style="color: #fff" class="lead bg-info">
+                This has info background
+            </p>
+            <p style="color: #fff" class="lead bg-success">
+                This has success background
+            </p>
+            <p style="color: #fff" class="lead bg-warning">
+                This has warning background
+            </p>
+            <p style="color: #fff" class="lead bg-danger">
+                This has danger background
+            </p>
+
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+    </body>
+</html>
