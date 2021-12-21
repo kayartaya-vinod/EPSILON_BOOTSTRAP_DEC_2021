@@ -1,0 +1,31 @@
+.container-fluid > h1.lead {
+    padding: 10px;
+}
+
+.sidebar {
+    background-color: #f7f8fc;
+    padding-left: 30px;
+}
+
+.plain-link {
+    text-decoration: none;
+}
+
+div#breadcrumbs {
+    background-color: #f7f8fc;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: '👉🏻';
+}
+
+#video-placeholder {
+    padding: 20px;
+}
+
+.btn-custom-bg {
+    background-color: #f7f8fc;
+}

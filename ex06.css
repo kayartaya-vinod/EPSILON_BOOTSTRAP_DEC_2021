@@ -1,0 +1,15 @@
+.container-fluid > h1.lead {
+    padding: 10px;
+}
+
+img.img-thumbnail {
+    border: none;
+    border-radius: 20px;
+    transform: scale(0.9);
+    transition: all 150ms ease-in-out;
+}
+
+img.img-thumbnail:hover {
+    transform: scale(1);
+    box-shadow: 0 0 20px #777;
+}
