@@ -1,0 +1,7 @@
+.container-fluid > h1.lead {
+    padding: 10px;
+}
+
+.form-group {
+    padding: 10px 0;
+}
