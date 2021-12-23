@@ -2,14 +2,14 @@
     padding: 10px;
 }
 
-img.img-thumbnail {
+img.img-animated {
     border: none;
     border-radius: 20px;
     transform: scale(0.9);
     transition: all 150ms ease-in-out;
 }
 
-img.img-thumbnail:hover {
+img.img-animated:hover {
     transform: scale(1);
     box-shadow: 0 0 20px #777;
 }
